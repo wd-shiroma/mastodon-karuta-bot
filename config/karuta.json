@@ -1,0 +1,287 @@
+{
+    "cards": [
+        {
+            "initial": "あ",
+            "upper_phrase": "浅間のいたづら",
+            "lower_phrase":"鬼の押し出し",
+            "regexp": "鬼の?押し?出し?"
+        },
+        {
+            "initial": "い",
+            "upper_phrase": "伊香保温泉",
+            "lower_phrase":"日本の名湯",
+            "regexp": "日本の名湯|一度はおいで"
+        },
+        {
+            "initial": "う",
+            "upper_phrase": "碓氷峠の",
+            "lower_phrase":"関所跡",
+            "regexp": "関所[跡址]"
+        },
+        {
+            "initial": "え",
+            "upper_phrase": "縁起だるまの",
+            "lower_phrase":"少林山",
+            "regexp": "少林山"
+        },
+        {
+            "initial": "お",
+            "upper_phrase": "太田金山",
+            "lower_phrase":"子育て呑龍",
+            "regexp": "子育て?呑[龍竜]"
+        },
+        {
+            "initial": "か",
+            "upper_phrase": "関東と信越繋ぐ",
+            "lower_phrase":"高崎市",
+            "regexp": "高崎市?"
+        },
+        {
+            "initial": "き",
+            "upper_phrase": "桐生は日本の",
+            "lower_phrase":"機どころ",
+            "regexp": "[旗機](どころ|所)"
+        },
+        {
+            "initial": "く",
+            "upper_phrase": "草津良いとこ",
+            "lower_phrase":"薬の温泉(いでゆ)",
+            "regexp": "薬の((い|出)で?湯|温泉)"
+        },
+        {
+            "initial": "け",
+            "upper_phrase": "県都前橋",
+            "lower_phrase":"生糸の街",
+            "regexp": "生?糸の[街町]"
+        },
+        {
+            "initial": "こ",
+            "upper_phrase": "心の燈台",
+            "lower_phrase":"内村鑑三",
+            "regexp": "内村\\s*鑑三"
+        },
+        {
+            "initial": "さ",
+            "upper_phrase": "三波石とともに名高い",
+            "lower_phrase":"冬桜",
+            "regexp": "(冬|ふゆ)(桜|ざくら)"
+        },
+        {
+            "initial": "し",
+            "upper_phrase": "しのぶ毛の国",
+            "lower_phrase":"二子塚",
+            "regexp": "[二双]子塚"
+        },
+        {
+            "initial": "す",
+            "upper_phrase": "裾野は長し",
+            "lower_phrase":"赤城山",
+            "regexp": "赤城山?"
+        },
+        {
+            "initial": "せ",
+            "upper_phrase": "仙郷尾瀬沼",
+            "lower_phrase":"花の原",
+            "regexp": "花の原"
+        },
+        {
+            "initial": "そ",
+            "upper_phrase": "そろいの支度で",
+            "lower_phrase":"八木節音頭",
+            "regexp": "八木節(音頭)?"
+        },
+        {
+            "initial": "た",
+            "upper_phrase": "滝は吹き割り",
+            "lower_phrase":"片品渓谷",
+            "regexp": "片品渓谷"
+        },
+        {
+            "initial": "ち",
+            "upper_phrase": "力を合わせる",
+            "lower_phrase":"二百万",
+            "regexp": "((20|1[6-9])0|二百|百[六七八九]十)万"
+        },
+        {
+            "initial": "つ",
+            "upper_phrase": "鶴舞う形の",
+            "lower_phrase":"群馬県",
+            "regexp": "(群馬|ぐんま)(けん|県)"
+        },
+        {
+            "initial": "て",
+            "upper_phrase": "天下の義人",
+            "lower_phrase":"茂左衛門",
+            "regexp": "茂左衛門|もざえもん|(ドラ|どら)えもん"
+        },
+        {
+            "initial": "と",
+            "upper_phrase": "利根は",
+            "lower_phrase":"坂東一の川",
+            "regexp": "[坂関]東(一|いち)の川"
+        },
+        {
+            "initial": "な",
+            "upper_phrase": "中山道しのぶ",
+            "lower_phrase":"安中杉並木",
+            "regexp": "安中杉並木"
+        },
+        {
+            "initial": "に",
+            "upper_phrase": "日本で最初の",
+            "lower_phrase":"富岡製糸",
+            "regexp": "富岡製[糸紙]"
+        },
+        {
+            "initial": "ぬ",
+            "upper_phrase": "沼田城下の",
+            "lower_phrase":"塩原太助",
+            "regexp": "塩原\\s*(太助|助けて)"
+        },
+        {
+            "initial": "ね",
+            "upper_phrase": "ねぎとこんにゃく",
+            "lower_phrase":"下仁田名産",
+            "regexp": "下仁田名産|下(ネタ|ねた)(姉|ね[えぇ])さん"
+        },
+        {
+            "initial": "の",
+            "upper_phrase": "登る榛名の",
+            "lower_phrase":"キャンプ村",
+            "regexp": "キャンプ村"
+        },
+        {
+            "initial": "は",
+            "upper_phrase": "花山公園",
+            "lower_phrase":"つつじの名所",
+            "regexp": "つつじの名所"
+        },
+        {
+            "initial": "ひ",
+            "upper_phrase": "白衣観音",
+            "lower_phrase":"慈悲の御手",
+            "regexp": "慈悲の[御み]手て"
+        },
+        {
+            "initial": "ふ",
+            "upper_phrase": "分福茶釜の",
+            "lower_phrase":"茂林寺",
+            "regexp": "茂林寺"
+        },
+        {
+            "initial": "へ",
+            "upper_phrase": "平和の使い",
+            "lower_phrase":"新島襄",
+            "regexp": "新島\\s*襄|(あした|明日)のジョー"
+        },
+        {
+            "initial": "ほ",
+            "upper_phrase": "誇る文豪",
+            "lower_phrase":"田山花袋",
+            "regexp": "田山\\s花袋|(頭|あたま)([固硬堅]|かた)い"
+        },
+        {
+            "initial": "ま",
+            "upper_phrase": "繭と生糸は",
+            "lower_phrase":"日本一",
+            "regexp": "日本一"
+        },
+        {
+            "initial": "み",
+            "upper_phrase": "水上谷川",
+            "lower_phrase":"スキーと登山",
+            "regexp": "スキーと登山"
+        },
+        {
+            "initial": "む",
+            "upper_phrase": "昔を語る",
+            "lower_phrase":"多胡の古碑",
+            "regexp": "多胡(の(古碑|こひ)|碑)|(タコ|たこ)の(コーヒー|珈琲)"
+        },
+        {
+            "initial": "め",
+            "upper_phrase": "銘仙織り出す",
+            "lower_phrase":"伊勢崎市",
+            "regexp": "伊勢崎市?"
+        },
+        {
+            "initial": "も",
+            "upper_phrase": "紅葉に映える",
+            "lower_phrase":"妙義山",
+            "regexp": "妙義山?"
+        },
+        {
+            "initial": "や",
+            "upper_phrase": "耶馬渓しのぐ",
+            "lower_phrase":"吾妻峡",
+            "regexp": "[吾我]妻[峡境]"
+        },
+        {
+            "initial": "ゆ",
+            "upper_phrase": "ゆかりは古し",
+            "lower_phrase":"貫前神社",
+            "regexp": "(貫前|ぬきさき)神社"
+        },
+        {
+            "initial": "よ",
+            "upper_phrase": "世のちり洗う",
+            "lower_phrase":"四万温泉",
+            "regexp": "(四万|しま|えろ|エロ)温泉"
+        },
+        {
+            "initial": "ら",
+            "upper_phrase": "雷と空っ風",
+            "lower_phrase":"義理人情",
+            "regexp": "義理人情"
+        },
+        {
+            "initial": "り",
+            "upper_phrase": "理想の電化に",
+            "lower_phrase":"電源群馬",
+            "regexp": "電源群馬"
+        },
+        {
+            "initial": "る",
+            "upper_phrase": "ループで名高い",
+            "lower_phrase":"清水トンネル",
+            "regexp": "清水トンネル"
+        },
+        {
+            "initial": "れ",
+            "upper_phrase": "歴史に名高い",
+            "lower_phrase":"新田義貞",
+            "regexp": "新田\\s*義貞"
+        },
+        {
+            "initial": "ろ",
+            "upper_phrase": "老農",
+            "lower_phrase":"船津傳次平",
+            "regexp": "船津\\s*(傳次平|でんじべい)"
+        },
+        {
+            "initial": "わ",
+            "upper_phrase": "和算の大家",
+            "lower_phrase":"関孝和",
+            "regexp": "(関|せき)\\s*(孝和|こうわ|たかかず)|ウナコーワ"
+        }
+    ],
+    "bonus_cards": [
+        {
+            "name": "五市札",
+            "initials": [ "お", "か", "め", "き", "け" ],
+            "score": 20
+        },
+        {
+            "name": "三山札",
+            "initials": [ "す", "も", "の" ],
+            "score": 10
+        },
+        {
+            "name": "親札",
+            "initials": [ "つ", "ち", "け" ],
+            "score": 10
+        }
+    ],
+    "special_cards": [ "つ", "ち", "け" ],
+    "prelude_card": { "initial": "つ" }
+}

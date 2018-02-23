@@ -1,0 +1,24 @@
+{
+  "name": "mastodon-karuta-bot",
+  "version": "1.0.0",
+  "description": "mastodon karuta bot",
+  "main": "scripts/streaming.js",
+  "scripts": {
+    "test": "node scripts/test.js",
+    "start": "[ ! -f process.uid ] && UID=`uuidgen`; forever start --uid $UID scripts/start.js; echo $UID > process.uid",
+    "stop": "[ -f process.uid ] && forever stop `cat process.uid`; rm process.uid",
+    "list": "forever list",
+    "init": "node scripts/init.js"
+  },
+  "author": "guskma",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "config": "^1.29.4",
+    "forever": "^0.15.3",
+    "mstdn-api": "^0.1.2",
+    "simpleflake": "^1.0.1",
+    "sqlite3": "^3.1.13",
+    "websocket": "^1.0.25"
+  }
+}
