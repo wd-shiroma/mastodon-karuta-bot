@@ -3,3 +3,4 @@ config/*
 !config/default.json.sample
 !config/karuta.json
 db.sql
+process.uid
